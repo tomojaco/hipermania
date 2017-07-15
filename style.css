@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font : 15px "Courier New", Courier, monospace;
+  color: #161616;
+  }
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none; 
+}
+
+a img {
+    border: 0;
+}
+  
+#parent       
+	{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	overflow: visible;
+	visibility: visible;
+	display: block
+	}
+
+#content    
+	{
+	text-align: center;
+	margin-left: -300px;
+	position: absolute;
+	top: -90px;
+	left: 50%;
+	width: 600px;
+	height: 160px;
+	visibility: visible
+	}
+
+#left
+	{
+	text-align: left;
+	}
